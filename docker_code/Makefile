@@ -21,7 +21,7 @@ stack-full-refresh:
 
 # Enter 'dev' container with bash
 dev-bash:
-	docker-compose run --rm --entrypoint "/bin/bash -c" <$CODE_FOLDER_NAME> bash
+	docker-compose run --rm --entrypoint "/bin/bash -c" <$DOCKER_NAME> bash
 
 # make hello name=Worlid
 hello:
